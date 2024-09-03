@@ -14,6 +14,13 @@ This is meant to be run as an microservice. Best to run it in a container. You c
 
 This will build the container and run it on port 8080. You can then access the service at `http://localhost:8080/`.
 
+But if you're special and don't want to run it in a container, you can run the service with the following command:
+
+```bash
+go build
+./site-metadata-proxy
+```
+
 ## How to use
 
 You can use the service by sending a GET request to the service with the following query parameter:
