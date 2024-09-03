@@ -1,0 +1,1 @@
+docker build -t site-metadata-api-golang . && docker run -p 8080:8080 site-metadata-api-golang
